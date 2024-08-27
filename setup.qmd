@@ -1,0 +1,48 @@
+---
+editor: source
+---
+
+# Installation
+
+Dieses Skript wird als Standardvorlage auf Posit Cloud verwendet, um die erforderlichen R Pakete zu installieren, die zur Durchführung des Kurses benötigt werden.
+
+```{r}
+
+install.packages(c("devtools", 
+                   "usethis", 
+                   "knitr", 
+                   "tidyverse", 
+                   "ggthemes", 
+                   "palmerpenguins",
+                   "gt",
+                   "here",
+                   "gapminder",
+                   "ggthemes",
+                   "ggridges",
+                   "sf",
+                   "rnaturalearth",
+                   "readxl",
+                   "janitor",
+                   "googlesheets4"))
+```
+
+```{r}
+library(devtools)
+library(usethis)
+library(tidyverse)
+library(ggthemes)
+library(palmerpenguins)
+library(gt)
+library(here)
+library(gapminder)
+library(ggthemes)
+library(ggridges)
+library(sf)
+library(rnaturalearth)
+library(readxl)
+library(readr)
+library(janitor)
+library(googlesheets4)
+```
+
+
