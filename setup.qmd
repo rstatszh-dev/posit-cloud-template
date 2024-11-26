@@ -23,7 +23,11 @@ install.packages(c("devtools",
                    "rnaturalearth",
                    "readxl",
                    "janitor",
-                   "googlesheets4"))
+                   "googlesheets4",
+                   "nycflights13",
+                   "DT",
+                   "gt",
+                   "quarto"))
 ```
 
 ```{r}
@@ -43,6 +47,8 @@ library(readxl)
 library(readr)
 library(janitor)
 library(googlesheets4)
+library(DT)
+library(gt)
 ```
 
 
